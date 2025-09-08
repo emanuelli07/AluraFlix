@@ -1,29 +1,30 @@
  body {
-    color:antiquewhite
-    backgroud-color:aquamarine
+    color:white;
+    background: black;
     margin: 0px;
-    font-family: 'char';
+    font-family: 'Inter', sans-serif;
     margin-bottom: 100px;
  }
 
  header {
       border-bottom: solid 2px rgb(42, 122, 228);
-padding: 20xp;
-font-size: 32xp;
+padding: 20px;
+font-size: 32px;
 color: rgb(42, 122, 228)
 
  }
 
- chamada {
+.chamada {
       background: rgb(184, 156, 231);
       padding-bottom: 80px;
+      padding-top: 80px;
       display: flex;
       justify-content: center;
 
   }
 
 .chamada-texto {
-    margin-right: 5x;
+    margin-right: 5%;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h1 {
 }
 
 p {
-    font-size:20xp;
+    font-size:20px;
 }
 
 .categorias-videos {
@@ -52,7 +53,7 @@ p {
 
 .categorias-videos img:hover {
     opacity:1.0;
-    border: 3xp solid green;
+    border: 3px solid green;
 }
 
 .categoria h2 {
